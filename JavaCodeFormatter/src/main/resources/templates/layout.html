@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<head th:replace="~{fragments :: common-head(${title})}"></head>
+<body class="body-bg">
+<header th:replace="~{fragments :: header}"></header>
+
+<div class="container container-custom mt-4">
+    <section th:replace="~{fragments :: alerts}"></section>
+    <main layout:fragment="content">
+    </main>
+</div>
+
+<footer th:replace="~{fragments :: footer}"></footer>
+</body>
+</html>

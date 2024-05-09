@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout" layout:decorate="~{layout}">
+<head>
+    <title>View Saved Code</title>
+</head>
+<body>
+<main layout:fragment="content">
+    <div th:if="${codeSnippet != null}">
+        <div class="card card-custom">
+            <div class="card-header">
+                Formatted Code:
+            </div>
+            <div class="card-body">
+                <pre th:text="${codeSnippet.formattedCode}" class="pre-scrollable"></pre>
+            </div>
+        </div>
+    </div>
+    <a th:href="@{/format}" class="btn btn-custom-primary">Format New Code</a>
+</main>
+</body>
+</html>
