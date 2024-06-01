@@ -12,5 +12,8 @@ Technologies Used:
 * Spring Boot: Simplifies the setup and development of new Spring applications.
 * Thymeleaf: Server-side Java template engine for web applications.
 * Bootstrap: For responsive styling and layout.
-  
+
+ScreenShot of the main page:
+![Screenshot 2024-05-09 183450](https://github.com/marichkaq/Web-Java-Code-Formatter/assets/136113477/cfae93b5-7329-4b8f-be81-74675e047e18)
+
 Access the application via [http://localhost:8080/](http://localhost:8080/codeFormatter/format) in your web browser.
